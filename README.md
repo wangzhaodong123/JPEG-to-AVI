@@ -4,6 +4,8 @@
 # 修改
 增加了read_file函数，可以从指定路径读取.jpg文件并按照文件名从小到大排列后存放到容器内；
 # 指令
+cd JPEG-to-AVI
+
 make
 
 ./bin/mjpeg -i ./data/test/ -o ./output/output.avi -f 8
