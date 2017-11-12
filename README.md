@@ -3,6 +3,9 @@
 将指定目录下的.jpg图片集排序后转化成AVI视频，并可以指定帧率（-f 帧/s），指定图片目录(-i 图片集地址)，指定输出文件地址(-o 输出文件地址)
 # 修改
 增加了read_file函数，可以从指定路径读取.jpg文件并按照文件名从小到大排列后存放到容器内；
+# 指令
+make;
+./bin/mjpeg -i ./data/test/ -o ./output/output.avi -f 8
 # 
 ## MIT-like License
 
